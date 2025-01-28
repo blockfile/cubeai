@@ -1,0 +1,6 @@
+.bg-terminal {
+  background-image: url("../assets/images/bg.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
