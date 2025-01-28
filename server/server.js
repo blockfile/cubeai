@@ -8,7 +8,11 @@ const { Connection, PublicKey } = require("@solana/web3.js");
 
 const app = express();
 const PORT = 3001;
+const DEXTOOLS_API_KEY = "Mnf3uq5ivJ7PwdN907zdc3iQlPiWwJrR1opN6qrV";
 
+// 2) Create a connection to your preferred Solana cluster or your QuickNode endpoint
+const RPC_URL =
+  "https://side-old-telescope.solana-mainnet.quiknode.pro/a9e0d1c4f676b80608c48a35abfd719fa6f12b10";
 // 3) Build a Connection object
 const connection = new Connection(RPC_URL, "confirmed");
 
